@@ -1,0 +1,4 @@
+#!/bin/sh
+
+rm -rf docs
+javadoc -sourcepath src -protected -verbose -subpackages rpg -d docs -linksource
